@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.item {
+    width: 30%;
+    height: 500px;
+}
+
+.top-section {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+}
+
+.discount {
+    font-family: 'Roboto', sans-serif;    
+    font-size: .6rem;
+    font-weight: bold;
+    width: 30px;
+    height: 14px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.green {
+    width: 60px;
+    height: 14px;
+    background-color: seagreen;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: bold;  
+    font-size: .6rem;
+    text-align: center;
+    position: absolute;
+    left: 34px;
+    bottom: 15px;
+}
+
+.heart {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    font-size: larger;
+    background-color: white;
+}
+
+
